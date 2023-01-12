@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Salomé Gfeller'
 theme = "hugo-theme-hello-friend-master"
 paginate = 5
+enableEmoji = true
 
 [params]
   # dir name of your blog content (default is `content/posts`).
@@ -60,4 +61,4 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "blog"
         name = "Blog"
-        url = "/blog"
+        url = "/"
