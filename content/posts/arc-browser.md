@@ -3,7 +3,7 @@ title: "Arc est le navigateur du futur"
 author: "Salomé Gfeller"
 date: 2023-01-24T15:04:44+01:00
 description: Présentation du navigateur Arc
-cover: "/img/arc-browser.png"
+cover: "/blog-labveiltech/img/arc-browser.png"
 tags: ['article', 'navigateur']
 draft: false
 ---
@@ -28,7 +28,7 @@ J'ai donc voulu tester Arc par moi-même et créer un Boost.
 
 Voici le site web https://chabloz.eu/horaires/ :
 
-{{< image src="/img/arc-avant.png" alt="site web avant" position="center" style="border-radius: 8px; border: 1px solid #292A2D;" >}}
+{{< image src="/blog-labveiltech/img/arc-avant.png" alt="site web avant" position="center" style="border-radius: 8px; border: 1px solid #292A2D;" >}}
 
 Après avoir écrit le code CSS suivant et l'avoir rajouté au Boost,
 
