@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>article on Salomé Gfeller</title>
+    
+    
+    
+    <link>/tags/article/</link>
+    <description>Recent content in article on Salomé Gfeller</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Jan 2023 13:48:53 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/article/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bienvenue</title>
+      <link>/posts/bienvenue/</link>
+      <pubDate>Thu, 12 Jan 2023 13:48:53 +0100</pubDate>
+      
+      <guid>/posts/bienvenue/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://www.slntechnologies.com/wp-content/uploads/2017/08/ef3-placeholder-image.jpg&#34;/&gt;
+          
+        
+        
+        
+          Mon premier article de blog
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
