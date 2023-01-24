@@ -3,7 +3,7 @@ title: "Arc est le navigateur du futur"
 author: "Salomé Gfeller"
 date: 2023-01-24T15:04:44+01:00
 description: Présentation du navigateur Arc
-cover: "/img/arc-browser.png"
+cover: "/blog-labveiltech/img/arc-browser.png"
 tags: ['article', 'navigateur']
 draft: false
 ---
