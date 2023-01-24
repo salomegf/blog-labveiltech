@@ -28,7 +28,7 @@ J'ai donc voulu tester Arc par moi-même et créer un Boost.
 
 Voici le site web https://chabloz.eu/horaires/ :
 
-{{< image src="/img/arc-avant.png" alt="site web avant" position="center" style="border-radius: 8px; border: 1px solid #292A2D;" >}}
+{{< image src="/blog-labveiltech/img/arc-avant.png" alt="site web avant" position="center" style="border-radius: 8px; border: 1px solid #292A2D;" >}}
 
 Après avoir écrit le code CSS suivant et l'avoir rajouté au Boost,
 
@@ -64,6 +64,6 @@ button.selected {
 
 Voici le résultat final :
 
-{{< image src="/img/arc-apres.png" alt="site web après" position="center" style="border-radius: 8px; border: 1px solid #292A2D;" >}}
+{{< image src="/blog-labveiltech/img/arc-apres.png" alt="site web après" position="center" style="border-radius: 8px; border: 1px solid #292A2D;" >}}
 
 En étant "low code", ces Boosts permettent aux développeur·euses web, ainsi qu'aux personnes avec seulement quelques connaissances de programmation de s'approprier le web. On peut seulement imaginer ce qui est possible de faire avec un outil pareil, et on peut se demander si le futur du web ressemble à Arc.
