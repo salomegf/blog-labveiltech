@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://salomegf.github.io/blog-labveiltech'
 languageCode = 'en-us'
 title = 'Salomé Gfeller'
 theme = "hugo-theme-hello-friend-master"
