@@ -1,13 +1,14 @@
 ---
-title: "Arc est le navigateur du futur"
+title: "Arc va peut-être remplacer votre navigateur Chrome"
 author: "Salomé Gfeller"
 date: 2023-01-24T15:04:44+01:00
-description: Présentation du navigateur Arc
+description: Présentation du navigateur Arc.
 cover: "/blog-labveiltech/img/arc-browser.png"
 tags: ['article', 'navigateur']
 draft: false
 ---
-"The Verge" a publié [cet article](https://www.theverge.com/23462235/arc-web-browser-review) sur le nouveau navigateur "Arc" et j'ai du le tester par moi-même. Mais surtout quels effets est-ce qu'il a sur le développement web.
+
+"The Verge" a publié [cet article](https://www.theverge.com/23462235/arc-web-browser-review) sur le nouveau navigateur "Arc" et j'ai dû le tester par moi-même. Mais surtout quels effets est-ce qu'il a sur le développement web.
 
 ## Pourquoi
 
@@ -18,9 +19,9 @@ J'ai choisi cet article car en tant que future développeuse web, le navigateur 
 L'article décrit le navigateur "Arc" et ce qu'il apporte au web. Arc se veut être un système d'exploitation pour le web, en rendant personnalisable et adaptable aux besoins de chacun·es. Cette citation de l'article explique ce concept assez bien :
 > Arc treats the web the way TikTok treats video: not as a fixed thing for you to consume but as a set of endlessly remixable components
 
-Arc met ses onglets sur la gauche, au lieu d'en haut dans les navigateurs "classiques", il propose également des "Spaces" qui permettent d'avoir différents espaces avec chacun leurs onglets et favoris (par exemple un pour les cours, et un perso). L'auteur parle également qu'il y a quelques bugs ainsi que des fonctionnalités manquantes, dus au fait que le navigteur est encore en version bêta.
+Arc met ses onglets sur la gauche, au lieu d'en haut dans les navigateurs "classiques", il propose également des "Spaces" qui permettent d'avoir différents espaces avec chacun leurs onglets et favoris (par exemple un pour les cours, et un perso). L'auteur parle également qu'il y a quelques bugs ainsi que des fonctionnalités manquantes, dus au fait que le navigateur est encore en version bêta.
 
-La partie la plus intéressante pour moi et la programmation web est la concept des "Boosts". Ceux-ci permettent de coder en CSS ou JavaScript des mini-extensions afin de personnaliser n'importe quel site web.
+La partie la plus intéressante pour moi et la programmation web est le concept des "Boosts". Ceux-ci permettent de coder en CSS ou JavaScript des mini-extensions afin de personnaliser n'importe quel site web.
 
 ## Nouveautés
 

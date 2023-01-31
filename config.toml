@@ -1,5 +1,4 @@
 baseURL = 'https://salomegf.github.io/blog-labveiltech/'
-# baseURL = '/'
 languageCode = 'en-us'
 title = 'Salomé Gfeller'
 theme = "hugo-theme-hello-friend-master"
@@ -48,7 +47,7 @@ enableEmoji = true
 
     [languages.en.params.logo]
       logoText = "salomé gfeller"
-      logoHomeLink = "/"
+      logoHomeLink = "/blog-labveiltech/"
     # or
     #
     # path = "/img/your-example-logo.svg"
