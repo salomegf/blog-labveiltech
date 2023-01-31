@@ -1,0 +1,204 @@
+<!doctype html><html lang=en>
+<head>
+<title>
+Expérimentation avec le mode sombre ::
+Salomé Gfeller — Un blog
+</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Je suis déjà tombée sur des sites web qui changent d&amp;rsquo;apparence en fonction du mode de couleur de mon navigateur (clair ou sombre), mais je me suis toujours demandée comment ça se faisait et si c&amp;rsquo;était possible de faire directement en CSS.
+Voici un exemple avec la page d&amp;rsquo;accueil de Google :
+J&amp;rsquo;ai ensuite trouvé un article sur la propriété color-scheme en CSS, qui permet de choisir le style par défaut d&amp;rsquo;une page web, light ou dark.">
+<meta name=keywords content>
+<meta name=robots content="noodp">
+<link rel=canonical href=https://salomegf.github.io/blog-labveiltech/posts/experimentation/>
+<link rel=stylesheet href=/blog-labveiltech/css/style.css>
+<link rel=stylesheet href=https://salomegf.github.io/blog-labveiltech/style.css>
+<link rel=apple-touch-icon-precomposed sizes=144x144 href=https://salomegf.github.io/blog-labveiltech/img/apple-touch-icon-144-precomposed.png>
+<link rel="shortcut icon" href=https://salomegf.github.io/blog-labveiltech/img/favicon.png>
+<link href=/blog-labveiltech/fonts/Inter-Italic.woff2 rel=preload type=font/woff2 as=font crossorigin>
+<link href=/blog-labveiltech/fonts/Inter-Regular.woff2 rel=preload type=font/woff2 as=font crossorigin>
+<link href=/blog-labveiltech/fonts/Inter-Medium.woff2 rel=preload type=font/woff2 as=font crossorigin>
+<link href=/blog-labveiltech/fonts/Inter-MediumItalic.woff2 rel=preload type=font/woff2 as=font crossorigin>
+<link href=/blog-labveiltech/fonts/Inter-Bold.woff2 rel=preload type=font/woff2 as=font crossorigin>
+<link href=/blog-labveiltech/fonts/Inter-BoldItalic.woff2 rel=preload type=font/woff2 as=font crossorigin>
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Expérimentation avec le mode sombre">
+<meta name=twitter:description content="Expérimentation avec le mode sombre.">
+<meta property="og:title" content="Expérimentation avec le mode sombre">
+<meta property="og:description" content="Expérimentation avec le mode sombre.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://salomegf.github.io/blog-labveiltech/posts/experimentation/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2023-01-30T17:15:05+01:00">
+<meta property="article:modified_time" content="2023-01-30T17:15:05+01:00"><meta property="og:site_name" content="Salomé Gfeller">
+</head>
+<body>
+<div class=container>
+<header class=header>
+<span class=header__inner>
+<a href=/blog-labveiltech/ class=logo style=text-decoration:none>
+<span class=logo__mark><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44"><path fill="none" d="M15 8l14.729 14.382L15 35.367"/></svg>
+</span>
+<span class=logo__text>salomé gfeller</span>
+<span class=logo__cursor></span>
+</a>
+<span class=header__right>
+<nav class=menu>
+<ul class="menu__inner menu__inner--desktop">
+<li><a href=/blog-labveiltech/>Blog</a></li>
+<li><a href=/blog-labveiltech/about>À propos</a></li>
+</ul>
+<ul class="menu__inner menu__inner--mobile">
+<li><a href=/blog-labveiltech/>Blog</a></li>
+<li><a href=/blog-labveiltech/about>À propos</a></li>
+</ul>
+</nav>
+<span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+</span>
+<span class=theme-toggle><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 41c10.4934.0 19-8.5066 19-19C41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.5066 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z"/></svg>
+</span>
+</span>
+</span>
+</header>
+<div class=content>
+<article class=post>
+<h1 class=post-title>Expérimentation avec le mode sombre</h1>
+<div class=post-meta>
+<time class=post-date>
+30.01.2023
+</time>
+<span class=post-author>— Écrit par Salomé Gfeller</span>
+</div>
+<span class=post-tags>
+<a href=https://salomegf.github.io/blog-labveiltech/tags/experimentation/>#experimentation</a>&nbsp;
+<a href=https://salomegf.github.io/blog-labveiltech/tags/article/>#article</a>&nbsp;
+<a href=https://salomegf.github.io/blog-labveiltech/tags/css/>#CSS</a>&nbsp;
+</span>
+<figure class=post-cover>
+<img src=https://salomegf.github.io/blog-labveiltech/img/mode-sombre.png alt="Expérimentation avec le mode sombre">
+</figure>
+<div class=post-content>
+<p>Je suis déjà tombée sur des sites web qui changent d&rsquo;apparence en fonction du mode de couleur de mon navigateur (clair ou sombre), mais je me suis toujours demandée comment ça se faisait et si c&rsquo;était possible de faire directement en CSS.</p>
+<p>Voici un exemple avec la page d&rsquo;accueil de Google :</p>
+<img src=/blog-labveiltech/img/exemple-google.png alt="google en mode clair et sombre" class=center style="border-radius:8px;border:1px solid #292a2d">
+<p>J&rsquo;ai ensuite trouvé <a href=https://css-tricks.com/almanac/properties/c/color-scheme/>un article</a> sur la propriété <code>color-scheme</code> en CSS, qui permet de choisir le style par défaut d&rsquo;une page web, <code>light</code> ou <code>dark</code>.</p>
+<h2 id=premier-test>
+Premier test
+<a href=#premier-test class=h-anchor aria-hidden=true>#</a>
+</h2>
+<p>J&rsquo;ai donc fait quelques tests avec une page HTML simple et le code CSS suivant.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=color:#75715e>&lt;!DOCTYPE html&gt;</span>
+&lt;<span style=color:#f92672>html</span>&gt;
+&lt;<span style=color:#f92672>head</span>&gt;
+	&lt;<span style=color:#f92672>link</span> <span style=color:#a6e22e>rel</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;stylesheet&#34;</span> <span style=color:#a6e22e>href</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;style.css&#34;</span>&gt;
+&lt;/<span style=color:#f92672>head</span>&gt;
+&lt;<span style=color:#f92672>body</span>&gt;
+	&lt;<span style=color:#f92672>h1</span>&gt;Title&lt;/<span style=color:#f92672>h1</span>&gt;
+	&lt;<span style=color:#f92672>p</span>&gt;paragraph&lt;/<span style=color:#f92672>p</span>&gt;
+	&lt;<span style=color:#f92672>form</span>&gt;
+		&lt;<span style=color:#f92672>input</span> <span style=color:#a6e22e>value</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;Text input&#34;</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;text&#34;</span> /&gt;&lt;/<span style=color:#f92672>br</span>&gt;
+		&lt;<span style=color:#f92672>input</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;checkbox&#34;</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;checkbox&#34;</span>&gt;
+		&lt;<span style=color:#f92672>label</span> <span style=color:#a6e22e>for</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;checkbox&#34;</span>&gt;Checkbox&lt;/<span style=color:#f92672>label</span>&gt;&lt;/<span style=color:#f92672>br</span>&gt;
+		&lt;<span style=color:#f92672>input</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;radio&#34;</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;radio&#34;</span>&gt;
+		&lt;<span style=color:#f92672>label</span> <span style=color:#a6e22e>for</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;radio&#34;</span>&gt;Radio&lt;/<span style=color:#f92672>label</span>&gt;&lt;/<span style=color:#f92672>br</span>&gt;
+		&lt;<span style=color:#f92672>button</span>&gt;Button&lt;/<span style=color:#f92672>button</span>&gt;
+	&lt;/<span style=color:#f92672>form</span>&gt;
+&lt;/<span style=color:#f92672>body</span>&gt;
+&lt;/<span style=color:#f92672>html</span>&gt;
+</code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-css data-lang=css>:<span style=color:#a6e22e>root</span> {
+	color-scheme: light dark;
+}
+</code></pre></div><p>Voici le résultat, la même page si mon navigateur est en mode clair (gauche) ou sombre (droite).</p>
+<img src=/blog-labveiltech/img/test1.png alt="premier test" class=center style="border-radius:8px;border:1px solid #292a2d">
+<p>Mais en quoi est-ce différent d&rsquo;utiliser le media query <code>prefers-color-scheme</code> ?</p>
+<h2 id=deuxième-test>
+Deuxième test
+<a href=#deuxi%c3%a8me-test class=h-anchor aria-hidden=true>#</a>
+</h2>
+<p><code>prefers-color-scheme</code> permet de voir quel en mode le navigateur est, on pourrait se dire que le code suivant est équivalent au code précédent, juste plus long.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-css data-lang=css>@<span style=color:#66d9ef>media</span> <span style=color:#f92672>(</span><span style=color:#f92672>prefers-color-scheme</span><span style=color:#f92672>:</span> <span style=color:#f92672>light</span><span style=color:#f92672>)</span> {
+	:<span style=color:#a6e22e>root</span> {
+		<span style=color:#66d9ef>background-color</span>: <span style=color:#66d9ef>white</span>;
+		<span style=color:#66d9ef>color</span>: <span style=color:#66d9ef>black</span>;
+  }
+}
+
+@<span style=color:#66d9ef>media</span> <span style=color:#f92672>(</span><span style=color:#f92672>prefers-color-scheme</span><span style=color:#f92672>:</span> <span style=color:#f92672>dark</span><span style=color:#f92672>)</span> {
+	:<span style=color:#a6e22e>root</span> {
+    <span style=color:#66d9ef>background-color</span>: <span style=color:#ae81ff>#121212</span>;
+    <span style=color:#66d9ef>color</span>: <span style=color:#66d9ef>white</span>;
+  }
+}
+</code></pre></div><p>Cependant, on peut voir des différences avec la version précédente (à droite):</p>
+<img src=/blog-labveiltech/img/test2.png alt="deuxième test" class=center style=border-radius:8px>
+<p>En effet, les checkbox, boutons et imputs de texte, pas toujours très faciles à modifier en CSS, sont en mode &ldquo;sombre&rdquo; si on utilise <code>color-scheme</code>, car ce sont les styles par défaut du navigateur.</p>
+<h2 id=troisième-test>
+Troisième test
+<a href=#troisi%c3%a8me-test class=h-anchor aria-hidden=true>#</a>
+</h2>
+<p>La puissance de cette propriété est de l&rsquo;utiliser avec les media queries.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-css data-lang=css>:<span style=color:#a6e22e>root</span> {
+  color-scheme: light dark;
+}
+
+@<span style=color:#66d9ef>media</span> <span style=color:#f92672>(</span><span style=color:#f92672>prefers-color-scheme</span><span style=color:#f92672>:</span> <span style=color:#f92672>light</span><span style=color:#f92672>)</span> {
+  :<span style=color:#a6e22e>root</span> {
+    <span style=color:#66d9ef>background-color</span>: <span style=color:#66d9ef>lavender</span>;
+    <span style=color:#66d9ef>color</span>: <span style=color:#66d9ef>darkgreen</span>;
+  }
+}
+
+@<span style=color:#66d9ef>media</span> <span style=color:#f92672>(</span><span style=color:#f92672>prefers-color-scheme</span><span style=color:#f92672>:</span> <span style=color:#f92672>dark</span><span style=color:#f92672>)</span> {
+  :<span style=color:#a6e22e>root</span> {
+    <span style=color:#66d9ef>background-color</span>: <span style=color:#66d9ef>darkolivegreen</span>;
+    <span style=color:#66d9ef>color</span>: <span style=color:#66d9ef>lightpink</span>;
+  }
+} 
+</code></pre></div><p>Le code suivant permet de personnaliser le style des deux modes, tout en ayant les styles par défaut des checkbox par exemple.</p>
+<img src=/blog-labveiltech/img/test3.png alt="troisième test" class=center style=border-radius:8px>
+<h2 id=conclusion>
+Conclusion
+<a href=#conclusion class=h-anchor aria-hidden=true>#</a>
+</h2>
+<p>Maintenant que de plus en plus d&rsquo;applications proposent un mode sombre, il pourrait être intéressant de faire de même avec nos sites web, et ces propriétés CSS rendent cette idée facilement réalisable.</p>
+</div>
+<div class=pagination>
+<div class=pagination__title>
+<span class=pagination__title-h>Lire d'autres articles</span>
+<hr>
+</div>
+<div class=pagination__buttons>
+<span class="button previous">
+<a href=https://salomegf.github.io/blog-labveiltech/posts/codeflow/>
+<span class=button__icon>←</span>
+<span class=button__text>StackBlitz lance Codeflow</span>
+</a>
+</span>
+<span class="button next">
+<a href=https://salomegf.github.io/blog-labveiltech/posts/futur-css/>
+<span class=button__text>Le CSS du futur</span>
+<span class=button__icon>→</span>
+</a>
+</span>
+</div>
+</div>
+</article>
+</div>
+<footer class=footer>
+<div class=footer__inner>
+<a href=/blog-labveiltech/ class=logo style=text-decoration:none>
+<span class=logo__mark><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44"><path fill="none" d="M15 8l14.729 14.382L15 35.367"/></svg>
+</span>
+<span class=logo__text>salomé gfeller</span>
+<span class=logo__cursor></span>
+</a>
+<div class=copyright>
+<span>© 2023 Powered by <a href=https://gohugo.io target=_blank rel=noopener>Hugo</a></span>
+<span><a href=https://github.com/panr/hugo-theme-hello-friend target=_blank>Theme</a> made by <a href=https://github.com/panr target=_blank>panr</a></span>
+</div>
+</div>
+</footer>
+<script type=text/javascript src=/blog-labveiltech/bundle.min.js></script>
+</div>
+</body>
+</html>
